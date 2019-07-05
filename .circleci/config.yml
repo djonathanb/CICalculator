@@ -26,5 +26,5 @@ jobs:
             coverage run --source='./calc' manage.py test calc
             coverage report
             coverage html
-      - storage_artifacts:
+      - store_artifacts:
         path: htmlcov
